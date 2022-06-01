@@ -1,5 +1,6 @@
 <template>
-  <ReviewQA></ReviewQA>
+  <complex></complex>
+  <!-- <ReviewQA></ReviewQA> -->
   <review-total></review-total>
   <div id="n-review-btn" class="n-review-btn">
     <button onclick="javascript:void(0);" class="g-btn g-btn-w-sm">
@@ -12,6 +13,7 @@
 </template>
 
 <script setup>
+import complex from "../exhibit/complex.vue";
 import ReviewList from "./ReviewList.vue";
 import ReviewTotal from "./ReviewTotal.vue";
 import { useRoute } from "vue-router";

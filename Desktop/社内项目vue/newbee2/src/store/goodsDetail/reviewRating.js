@@ -23,13 +23,10 @@ export default {
       const reviewRating = await fetch(url + payload, { headers });
       const j = await reviewRating.json();
       state.commit("setReviewRating", j);
-      console.log("in setReviewRating method rating", j);
     },
   },
   getters: {
     getReviewRating: (state) => {
-      console.log("in getReviewRating method", state.reviewRating);
-      console.log("get中的数据", state.reviewRating);
       return state.reviewRating;
     },
   },

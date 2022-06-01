@@ -2,5 +2,6 @@
   "/goods/detail/review/total/:goodsId": "/goodsDetailReviewTotal?goodsId=:goodsId",
   "/goods/detail/review/rating/:goodsId": "/goodsDetailReviewRating?goodsId=:goodsId",
   "/goods/detail/review/goodsId/:goodsId/offset/:offset": "/goodsDetailReview?goodsId=:goodsId&offset=:offset",
-  "/goods/detail/review/qa/:goodsId": "/goodsDetailReviewQA?goodsId=:goodsId"
+  "/goods/detail/review/qa/:goodsId": "/goodsDetailReviewQA?goodsId=:goodsId",
+  "/goods/display/:goodsId": "/goodsDisplay?goodsId=:goodsId"
 }

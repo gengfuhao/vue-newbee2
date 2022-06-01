@@ -14,15 +14,12 @@ export default {
   mutations: {
     setReviews(state, payload) {
       state.reviews = payload[0];
-      console.log("array push review ", payload);
     },
     setReviews2(state, payload) {
       state.reviews2 = payload[0];
-      console.log("array push review2 ", payload);
     },
     changeShowed(state, payload) {
       state.showed = payload;
-      console.log("array push showed ", state.showed);
     },
 
     filterReviews(state, rating) {
@@ -55,28 +52,19 @@ export default {
 
       if (offset === 0) {
         context.commit("setReviews", j);
-        console.log("actions  00000000000review的j内容为", j);
       } else {
         context.commit("setReviews2", j);
-
-        console.log("actions  3333333review的j内容为", j);
       }
     },
   },
   getters: {
     getReviews: (state) => {
-      console.log("in getReviews method", state.reviews);
-
       return state.reviews;
     },
     getReviews2: (state) => {
-      console.log("in getReviews2 method", state.reviews);
-
       return state.reviews2;
     },
     getShowd: (state) => {
-      console.log("in getShowed method", state.showed);
-
       return state.showed;
     },
     // getReviewCount: (state) => {

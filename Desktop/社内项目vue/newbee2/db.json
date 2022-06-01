@@ -638,5 +638,247 @@
         }
       ]
     }
+  ],
+  "goodsDisplay": [
+    {
+      "goodsId": 10195,
+      "single": [
+        {
+          "colorName": "gray",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "1790",
+              "oldPrice": "1990",
+              "dropTime": "2022/05/16",
+              "integral": "16",
+              "goodsNumber": "7518027",
+              "color": "gray",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "1592",
+              "oldPrice": "1990",
+              "dropTime": "2021/11/22",
+              "integral": "21",
+              "goodsNumber": "7518032",
+              "color": "black",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "1790",
+              "oldPrice": "1990",
+              "dropTime": "2022/05/16",
+              "integral": "16",
+              "goodsNumber": "7518021",
+              "color": "rose",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goodsId": 10195,
+      "double": [
+        {
+          "colorName": "gray",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "2790",
+              "oldPrice": "2990",
+              "dropTime": "2022/05/16",
+              "integral": "25",
+              "goodsNumber": "7518028",
+              "color": "gray",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/6～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "2392",
+              "oldPrice": "2990",
+              "dropTime": "2021/11/22",
+              "integral": "21",
+              "goodsNumber": "7518038",
+              "color": "black",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。"
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "2790",
+              "oldPrice": "2990",
+              "dropTime": "2022/05/16",
+              "integral": "25",
+              "goodsNumber": "7518022",
+              "color": "rose",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/3～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goodsId": 10195,
+      "queen": [
+        {
+          "colorName": "gray",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2022/05/16",
+              "integral": "34",
+              "goodsNumber": "7518027",
+              "color": "gray",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2021/11/22",
+              "integral": "34",
+              "goodsNumber": "7518032",
+              "color": "black",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/5～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2022/05/16",
+              "integral": "34",
+              "goodsNumber": "7518029",
+              "color": "rose",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+            }
+          ]
+        }
+      ]
+    }
   ]
 }

@@ -12,18 +12,17 @@ export default {
   },
   mutations: {
     setSort(state, payload) {
-      state.page = 1;
-      state.QaList = state.allQaList.slice(0, 3);
-      if (payload === "total_yes") {
-        state.allQaList.sort((a, b) => {
-          a.reviewDate - b.reviewDate;
-          // new Date(a.reviewDate) - new Date(b.reviewDate);
-        });
-        state.QaList = state.allQaList.slice(0, 3);
-      }
+      // state.page = 1;
+
       if (payload === "created_at") {
+        state.allQaList.sort((a, b) => {
+          return new Date(b.reviewDate) - new Date(a.reviewDate);
+        });
+        // state.QaList = state.allQaList.slice(0, 3);
+      }
+      if (payload === "total_yes") {
         state.allQaList.sort((a, b) => b.count - a.count);
-        state.QaList = state.allQaList.slice(0, 3);
+        // state.QaList = state.allQaList.slice(0, 3);
       }
     },
 

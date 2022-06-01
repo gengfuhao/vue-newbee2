@@ -29,11 +29,9 @@ onMounted(() => {
   store.dispatch("setReviewRating", goodsId);
 });
 let reviewTotal = computed(() => {
-  console.log("数据类型是000000" + store.getters.getReviewTotal);
   return store.getters.getReviewTotal;
 });
 let reviewRating = computed(() => {
-  console.log("数据类型是11111", store.getters.getReviewRating);
   return store.getters.getReviewRating.rating;
 });
 </script>

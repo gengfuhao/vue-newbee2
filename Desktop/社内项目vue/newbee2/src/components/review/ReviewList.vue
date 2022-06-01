@@ -82,15 +82,15 @@ const showMeMore = () => {
   }
 };
 
-computed: {
-  // btnText(){
-  //   return showed === true ? "关闭" : "打开";
-  // }
-  console.log("revivalist里的reviewcount数据是", reviewCount);
-  console.log("revivalist里的review2数据是", reviews2);
-  console.log("revivalist里的review数据是", reviews);
-  console.log("revivalist里的showed数据是", showed);
-}
+// computed: {
+//   // btnText(){
+//   //   return showed === true ? "关闭" : "打开";
+//   // }
+//   console.log("revivalist里的reviewcount数据是", reviewCount);
+//   console.log("revivalist里的review2数据是", reviews2);
+//   console.log("revivalist里的review数据是", reviews);
+//   console.log("revivalist里的showed数据是", showed);
+// }
 </script>
 
 <style scoped>
