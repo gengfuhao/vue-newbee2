@@ -1,9 +1,10 @@
 <template>
   <div class="g-layout_body">
     <div class="p-grid g-lg-grid-2 g-grid-lg">
-      <!-- <PhDisplay></PhDisplay> -->
-
-      <DetailPage></DetailPage>
+      <PhDisplay></PhDisplay>
+      <template v-for="(display1, value) in display" :key="value">
+        <DetailPage :display1="display1"></DetailPage>
+      </template>
     </div>
   </div>
 </template>
@@ -23,6 +24,10 @@ onMounted(() => {
   store.dispatch("setDisplay", goodsId);
   console.log("goodsidqqqqqqq", goodsId);
 });
+let display = computed(() => {
+  return store.getters.getDisplay;
+});
+console.log("------", display);
 
 // let qaCount = computed(() => {
 //   return store.getters.getQaCount;
@@ -56,8 +61,8 @@ onMounted(() => {
 </script>
 
 <style>
-.g-lg-grid-2 {
-  display: flex;
-  flex-wrap: wrap;
+.g-layout-detail .g-layout_body {
+  grid-row: 3;
+  grid-column: 1;
 }
 </style>

@@ -6,8 +6,8 @@ export default {
     display: [], //第三层
     reviewDisplay: [], //第二层
     allReviewDisPlay: [], //第一层
-    changeName: "スモールシングル - シング",
   },
+
   mutations: {
     //syncrous
     setDisplay(state, payload) {
@@ -19,29 +19,10 @@ export default {
     },
     //选择风格
     setChange(state, payload) {
-      if (payload === "7518021") {
-        state.reviewDisplay = state.allReviewDisPlay[0].single;
-        state.display = state.reviewDisplay[0].gray;
-        state.changeName = "スモールシングル-シングル";
-        console.log("state.allReviewDisPlay[0].single", state.reviewDisplay);
-        console.log("sstate.display", state.display);
-      }
-      if (payload === "7518022") {
-        state.reviewDisplay = state.allReviewDisPlay[1].double;
-        state.display = state.reviewDisplay[0].gray;
-        state.changeName = "セミダブル-ダブル-シングル";
-        console.log("state.allReviewDisPlay[2].double", state.reviewDisplay);
-        console.log("sstate.display", state.display);
-      }
-      if (payload === "7518023") {
-        state.reviewDisplay = state.allReviewDisPlay[2].queen;
-        state.display = state.reviewDisplay[0].gray;
-        state.changeName = "ワイドダブル-クイーン";
-        console.log("state.allReviewDisPlay[3].queen", state.reviewDisplay);
-        console.log("state.display", state.display);
-      } else {
-        state.reviewDisplay = state.allReviewDisPlay[0].single;
-      }
+      state.reviewDisplay = state.allReviewDisPlay.filter(
+        (index) => index.sizeName === payload
+      );
+      console.log("setchange!!!!!!!!!", state.reviewDisplay);
     },
     //设置颜色
     setColor(state, payload) {
@@ -72,10 +53,13 @@ export default {
   getters: {
     getDisplay: (state) => {
       console.log("in getDisplay method", state.display);
-      return state.display[0];
+      return state.display;
     },
-    getChangeName: (state) => {
-      return state.changeName;
+    getReviewDisplay: (state) => {
+      return state.reviewDisplay;
+    },
+    getAllReviewDisPlay: (state) => {
+      return state.allReviewDisPlay;
     },
   },
 };

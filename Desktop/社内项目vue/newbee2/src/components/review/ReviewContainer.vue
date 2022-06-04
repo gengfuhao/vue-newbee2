@@ -1,6 +1,6 @@
 <template>
   <complex></complex>
-  <!-- <ReviewQA></ReviewQA> -->
+  <ReviewQA></ReviewQA>
   <review-total></review-total>
   <div id="n-review-btn" class="n-review-btn">
     <button onclick="javascript:void(0);" class="g-btn g-btn-w-sm">

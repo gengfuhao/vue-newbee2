@@ -642,9 +642,11 @@
   "goodsDisplay": [
     {
       "goodsId": 10195,
+      "sizeName": "スモールシングル-シングル",
       "single": [
         {
           "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
           "gray": [
             {
               "titleName": "GY",
@@ -670,6 +672,7 @@
         },
         {
           "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
           "black": [
             {
               "titleName": "BK",
@@ -695,6 +698,7 @@
         },
         {
           "colorName": "rose",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
           "rose": [
             {
               "titleName": "RO",
@@ -722,9 +726,11 @@
     },
     {
       "goodsId": 10195,
+      "sizeName": "セミダブル-ダブル",
       "double": [
         {
           "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
           "gray": [
             {
               "titleName": "GY",
@@ -750,6 +756,7 @@
         },
         {
           "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
           "black": [
             {
               "titleName": "BK",
@@ -775,6 +782,7 @@
         },
         {
           "colorName": "rose",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
           "rose": [
             {
               "titleName": "RO",
@@ -802,9 +810,11 @@
     },
     {
       "goodsId": 10195,
+      "sizeName": "ワイドダブル-クイーン",
       "queen": [
         {
           "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
           "gray": [
             {
               "titleName": "GY",
@@ -830,6 +840,7 @@
         },
         {
           "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
           "black": [
             {
               "titleName": "BK",
@@ -855,6 +866,7 @@
         },
         {
           "colorName": "rose",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
           "rose": [
             {
               "titleName": "RO",
