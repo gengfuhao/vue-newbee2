@@ -662,11 +662,23 @@
               "material": "polyester",
               "weight": "490g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
-              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
@@ -688,17 +700,29 @@
               "material": "polyester",
               "weight": "490g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
-              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
         {
           "colorName": "rose",
-          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
+          "colorUrl": "http://localhost:8080/assets/images/BasicColor_RO.png",
           "rose": [
             {
               "titleName": "RO",
@@ -714,11 +738,23 @@
               "material": "polyester",
               "weight": "490g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
-              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
-              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         }
@@ -746,11 +782,23 @@
               "material": "polyester",
               "weight": "600g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
-              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/6～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/6～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
@@ -772,11 +820,23 @@
               "material": "polyester",
               "weight": "600g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
-              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
@@ -798,11 +858,23 @@
               "material": "polyester",
               "weight": "600g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
-              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
-              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/3～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/3～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         }
@@ -830,11 +902,23 @@
               "material": "polyester",
               "weight": "650g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photogray1.webp",
-              "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photogray4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
@@ -856,11 +940,23 @@
               "material": "polyester",
               "weight": "650g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
-              "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
-              "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/5～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/5～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         },
@@ -882,11 +978,23 @@
               "material": "polyester",
               "weight": "650g",
               "warrantyYears": "1年",
-              "photo1": "http://localhost:8080/assets/images/photorose1.webp",
-              "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
-              "photo3": "http://localhost:8080/assets/images/photorose3.webp",
-              "photo4": "http://localhost:8080/assets/images/photorose4.webp",
-              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで"
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
             }
           ]
         }

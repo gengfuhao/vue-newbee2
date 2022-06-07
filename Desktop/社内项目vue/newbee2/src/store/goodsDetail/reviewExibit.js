@@ -9,7 +9,7 @@ export default {
   },
 
   mutations: {
-    //syncrous
+    //初始化
     setDisplay(state, payload) {
       state.display = payload[0].single[0].gray;
       state.reviewDisplay = payload[0].single;
@@ -19,26 +19,24 @@ export default {
     },
     //选择风格
     setChange(state, payload) {
-      state.reviewDisplay = state.allReviewDisPlay.filter(
-        (index) => index.sizeName === payload
-      );
-      console.log("setchange!!!!!!!!!", state.reviewDisplay);
+      state.allReviewDisPlay.filter((index) => {
+        if (index.sizeName === payload) {
+          state.reviewDisplay = index.single || index.double || index.queen;
+          //改变风格 从新初始化颜色
+          state.display = state.reviewDisplay[0].gray;
+          console.log("setchange!!!!!!!!!", state.reviewDisplay);
+        }
+      });
     },
     //设置颜色
     setColor(state, payload) {
-      //19-gray  61-black 18-rose
-      console.log("changenumber", payload);
-      switch (payload) {
-        case 19:
-          state.display = state.reviewDisplay[0].gray;
-          break;
-        case 18:
-          state.display = state.reviewDisplay[1].black;
-          break;
-        case 61:
-          state.display = state.reviewDisplay[2].rose;
-          break;
-      }
+      console.log("setColor", state.reviewDisplay);
+      state.reviewDisplay.filter((index) => {
+        if (index.colorName === payload) {
+          state.display = index.gray || index.black || index.rose;
+          console.log("setColor!!!!!!!!!", state.display);
+        }
+      });
     },
   },
   actions: {

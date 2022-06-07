@@ -37,62 +37,17 @@
             <li v-for="(setColor1, index) in setColor" :key="index">
               <label class="g-checkable g-checkable-circle">
                 <input
-                  @click="tm"
+                  @click="tm(setColor1.colorName)"
                   type="radio"
-                  name="1カラー"
-                  :value="setColor1.colorName"
-                  data-parent="05700010035"
-                  data-index="0"
-                  data-label="グレー"
-                  data-control="#p-customize1カラー"
+                  name="カラー"
+                  value="setColor1.colorName"
                 />
                 <span
                   ><span class="g-checkable_checked"></span
-                  ><img src="setColor1.colorUrl" alt="グレー"
+                  ><img :src="setColor1.colorUrl" alt="图"
                 /></span>
               </label>
             </li>
-            <!-- <li>
-              <label class="g-checkable g-checkable-circle">
-                <input
-                  @click="tm(61)"
-                  type="radio"
-                  name="1カラー"
-                  checked=""
-                  value="00100160061"
-                  data-parent="05700010035"
-                  data-index="0"
-                  data-label="ブラック"
-                  data-control="#p-customize1カラー"
-                />
-                <span
-                  ><span class="g-checkable_checked"></span
-                  ><img
-                    src="https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg"
-                    alt="ブラック"
-                /></span>
-              </label>
-            </li>
-            <li>
-              <label class="g-checkable g-checkable-circle">
-                <input
-                  @click="tm(18)"
-                  type="radio"
-                  name="1カラー"
-                  value="00100250018"
-                  data-parent="05700010035"
-                  data-index="0"
-                  data-label="ローズ"
-                  data-control="#p-customize1カラー"
-                />
-                <span
-                  ><span class="g-checkable_checked"></span
-                  ><img
-                    src="https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg"
-                    alt="ローズ"
-                /></span>
-              </label>
-            </li> -->
           </ul>
         </dd>
       </dl>
@@ -231,7 +186,8 @@ export default {
     let sizeName = ref("ワイドダブル-クイーン");
     const change = (event) => {
       sizeName.value = event.target.value;
-      store.commit("setChange", sizeName.value);
+      console.log("event!!!!!!!!", sizeName.value);
+      store.commit("setChange", event.target.value);
     };
 
     //获取colorUrl 和reviewdisplay（遍历颜色）
@@ -239,16 +195,10 @@ export default {
       console.log("eeeeeeee", store.getters.getReviewDisplay);
       return store.getters.getReviewDisplay;
     });
-    const tm = (event) => {
-      sizeName.value = event.target.value;
-      store.commit("setChange", sizeName.value);
+    //颜色点击事件
+    const tm = (color) => {
+      store.commit("setColor", color);
     };
-    // //点击事件
-    // const tm = (number) => {
-    //   store.commit("setColor", number);
-    //   console.log("tttttttttttttttt", number);
-    // };
-
     return {
       sizeName,
       changeName,
@@ -259,31 +209,6 @@ export default {
   },
 };
 </script>
-
-<!-- <script setup>
-import { useStore } from "vuex";
-import { computed, onMounted } from "vue";
-const store = useStore();
-
-const props = defineProps({
-  price: Number,
-});
-// console.log("123-----456", price);
-let changeName = computed(() => {
-  console.log("eeeeeeee", store.getters.getChangeName);
-  return store.getters.getChangeName;
-});
-
-const change = (number) => {
-  console.log("eeeeeeee", number.target.value);
-  store.commit("setChange", number.target.value);
-};
-//点击事件
-const tm = (number) => {
-  store.commit("setColor", number);
-  console.log("tttttttttttttttt", number);
-};
-</script> -->
 
 <style scoped>
 g-lg-grid-2

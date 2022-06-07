@@ -86,303 +86,12 @@
                 />
                 <div class="swiper-lazy-preloader"></div>
               </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="寝相が悪くてもズレにくく、見た目もすっきり。マットレスや敷きふとんの汚れ防止にも役立ちます。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-1580px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804705.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="寝相が悪くてもズレにくく、見た目もすっきり。マットレスや敷きふとんの汚れ防止にも役立ちます。"
-                  imgcount="4"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="ベッド用のマットレスはもちろん、敷きふとんにもご利用いただけます。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-1975px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804706.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="ベッド用のマットレスはもちろん、敷きふとんにもご利用いただけます。"
-                  imgcount="5"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="角までピタッ！きれいなフィット感。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-2370px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804707.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="角までピタッ！きれいなフィット感。"
-                  imgcount="6"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="裏面ゴム入りなので、きれいにフィット。厚さはなんと38㎝まで対応！"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-2765px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804708.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="裏面ゴム入りなので、きれいにフィット。厚さはなんと38㎝まで対応！"
-                  imgcount="7"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="生地は安心の抗菌防臭加工。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-3160px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804709.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="生地は安心の抗菌防臭加工。"
-                  imgcount="8"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="ご家庭の洗濯機で簡単に丸洗いできます。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-3555px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804710.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt="ご家庭の洗濯機で簡単に丸洗いできます。"
-                  imgcount="9"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-3950px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804711.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt=""
-                  imgcount="10"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-4345px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804712.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt=""
-                  imgcount="11"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-4740px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804713.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt=""
-                  imgcount="12"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-5135px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804714.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210608155127610"
-                  alt=""
-                  imgcount="13"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-5530px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804715.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20220228122211224"
-                  alt=""
-                  imgcount="14"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-5925px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804720.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20211118150620783"
-                  alt=""
-                  imgcount="15"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-6320px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804721.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20211118150620783"
-                  alt=""
-                  imgcount="16"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-6715px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804722.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20211118150620783"
-                  alt=""
-                  imgcount="17"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-7110px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804723.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20211118150620783"
-                  alt=""
-                  imgcount="18"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-7505px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804724.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20220519140642996"
-                  alt=""
-                  imgcount="19"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption=""
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-7900px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804798.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210902181649563"
-                  alt=""
-                  imgcount="20"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
             </div>
           </div>
         </div>
       </div>
       <!-- 照片下标 -->
-      <div class="p-gallery_fraction js-images-count" data-total="21">
-        1 / 21
-      </div>
+      <div class="p-gallery_fraction js-images-count" data-total="3">1 / 3</div>
 
       <div class="captionArea-static fixed" style="height: auto">
         <div
@@ -426,7 +135,7 @@
                 tabindex="0"
                 data-index="0"
                 style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804701.jpg?imwidth=97&amp;ts=20220516105128778);
+                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804701.jpg?imwidth=197&amp;ts=20220516105128778);
                 "
               ></div>
               <div
@@ -435,182 +144,7 @@
                 tabindex="0"
                 data-index="1"
                 style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804702.jpg?imwidth=97&amp;ts=20210719143628350);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="2"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804703.jpg?imwidth=97&amp;ts=20201217110218571);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="3"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804704.jpg?imwidth=97&amp;ts=20201217110218571);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="4"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804705.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="5"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804706.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="6"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804707.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="7"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804708.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-            </div>
-            <div class="swiper-slide swiper-slide-next" style="width: 395px">
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="8"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804709.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="9"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804710.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="10"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804711.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="11"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804712.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="12"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804713.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="13"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804714.jpg?imwidth=97&amp;ts=20210608155127610);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="14"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804715.jpg?imwidth=97&amp;ts=20220228122211224);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="15"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804720.jpg?imwidth=97&amp;ts=20211118150620783);
-                "
-              ></div>
-            </div>
-            <div class="swiper-slide" style="width: 395px">
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="16"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804721.jpg?imwidth=97&amp;ts=20211118150620783);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="17"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804722.jpg?imwidth=97&amp;ts=20211118150620783);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="18"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804723.jpg?imwidth=97&amp;ts=20211118150620783);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="19"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804724.jpg?imwidth=97&amp;ts=20220519140642996);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="20"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804798.jpg?imwidth=97&amp;ts=20210902181649563);
+                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804702.jpg?imwidth=197&amp;ts=20210719143628350);
                 "
               ></div>
             </div>
@@ -647,7 +181,39 @@
 </template>
 
 <script>
-export default {};
+import { onMounted, computed, ref } from "vue";
+import { useStore } from "vuex";
+export default {
+  // data() {
+  //   return {
+  //     newPhoto: this.display1.photo,
+  //   };
+  // },
+  props: {
+    display1: {
+      photo: Array,
+      photoDisplay: Array,
+    },
+  },
+
+  methods: {},
+  computed() {
+    console.log("props!!!!!!!!!!!!props", this.props);
+  },
+  setup() {
+    const store = useStore();
+    const newPhoto=computed(()=>{
+ let imgs=this.display1.photo
+       let count = Math.ceil(imgs.length / limit);
+       count = imgs.length % limit ? count++ : count;
+       let idx = 0;
+      let newphoto = [];
+       while (idx < count) {
+        newphoto.push(imgs.slice(idx * limit, idx * limit + limit));
+        idx++;
+    })
+  },
+};
 </script>
 
 <style scoped>
@@ -694,9 +260,9 @@ export default {};
   box-shadow: 0 0 0 2px #009e96 inset;
 }
 .p-gallery-static .p-gallery_thumbs_item {
-  width: calc((100% - 30px) / 4 - 0.1px);
+  width: calc((100% - 20px) / 2 - 0.1px);
   margin: 10px 10px 0 0;
-  padding-bottom: calc((100% - 30px) / 4);
+  padding-bottom: calc((100% - 30px) / 2);
   transition: opacity 0.2s;
   background-repeat: no-repeat;
   background-size: contain;
