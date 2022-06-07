@@ -1,0 +1,1004 @@
+{
+  "newGoodses": [
+    {
+      "id": 1,
+      "goodsId": 10195,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods1.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": "新品上架"
+    },
+    {
+      "id": 2,
+      "goodsId": 10196,
+      "link": "/goods/detail/10196",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods2.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": ""
+    },
+    {
+      "id": 3,
+      "goodsId": 10197,
+      "link": "/goods/detail/10197",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods3.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": "新商品"
+    },
+    {
+      "id": 4,
+      "goodsId": 10198,
+      "link": "/goods/detail/10198",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods4.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": "新商品"
+    },
+    {
+      "id": 5,
+      "goodsId": 10005,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods2.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": "新商品"
+    },
+    {
+      "id": 5,
+      "goodsId": 10006,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods3.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 250,
+      "counter": "新品",
+      "comment": "新商品"
+    }
+  ],
+  "hotGoodses": [
+    {
+      "id": 1,
+      "goodsId": 10195,
+      "link": "/goods/detail/10195",
+      "title": "hot 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods1.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 100,
+      "counter": "热卖",
+      "comment": "新蜂精选 好物也可以不贵"
+    },
+    {
+      "id": 2,
+      "goodsId": 10196,
+      "link": "/goods/detail/10196",
+      "title": "hot 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods2.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 200,
+      "counter": "热卖",
+      "comment": "新蜂精选 好物也可以不贵"
+    },
+    {
+      "id": 3,
+      "goodsId": 10197,
+      "link": "/goods/detail/10197",
+      "title": "智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods3.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 300,
+      "counter": "热卖",
+      "comment": "新蜂精选 好物也可以不贵"
+    },
+    {
+      "id": 4,
+      "goodsId": 10198,
+      "link": "/goods/detail/10198",
+      "title": "智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/goods1.jpg",
+      "name": "索尼1 WH-1000XM3 头戴式耳机 麒麟显卡 16G内...",
+      "price": 400,
+      "counter": "热卖",
+      "comment": "新蜂精选 好物也可以不贵"
+    }
+  ],
+  "categories": [
+    {
+      "categoryName": "家电 数码 手机",
+      "categories": [
+        {
+          "categoryName": "家电",
+          "categories": [
+            {
+              "categoryName": "卷发器",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "电饭煲",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "微波炉",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "冰箱",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        },
+        {
+          "categoryName": "数码",
+          "categories": [
+            {
+              "categoryName": "game",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "camera",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "TV",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        },
+        {
+          "categoryName": "手机",
+          "categories": [
+            {
+              "categoryName": "Apple",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "HuaWei",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "Sony",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "女装 男装 穿搭",
+      "categories": [
+        {
+          "categoryName": "女装",
+          "categories": [
+            {
+              "categoryName": "外套",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "裙子",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "裤子",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        },
+        {
+          "categoryName": "男装",
+          "categories": [
+            {
+              "categoryName": "外套",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "裤子",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "衬衫",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "运动 户外 乐器",
+      "categories": [
+        {
+          "categoryName": "运动",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        },
+        {
+          "categoryName": "户外",
+          "categories": [
+            {
+              "categoryName": "帐篷",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "露营",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "服饰",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "游戏 动漫 影视",
+      "categories": [
+        {
+          "categoryName": "游戏",
+          "categories": [
+            {
+              "categoryName": "switch",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "xbox",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "游戏周边",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        },
+        {
+          "categoryName": "动漫",
+          "categories": [
+            {
+              "categoryName": "动漫周边",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "漫画",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "鞋靴 箱包 配件",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "家具 家饰 家纺",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "美妆 清洁 宠物",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "工具 装修 建材",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "珠宝 金饰 眼镜",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "categoryName": "鞋靴 箱包 配件",
+      "categories": [
+        {
+          "categoryName": "鞋靴",
+          "categories": [
+            {
+              "categoryName": "篮球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "羽毛球",
+              "link": "/goods/detail/10195"
+            },
+            {
+              "categoryName": "瑜伽",
+              "link": "/goods/detail/10195"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "swiper": [
+    {
+      "id": 1,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/slide1.png"
+    },
+    {
+      "id": 2,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/slide2.png"
+    },
+    {
+      "id": 3,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/slide3.png"
+    },
+    {
+      "id": 4,
+      "link": "/goods/detail/10195",
+      "title": "new 智能降噪 长久续航",
+      "imgSrc": "http://localhost:8080/assets/images/slide4.png"
+    }
+  ],
+  "goodsDetailReview": [
+    {
+      "goodsId": 10195,
+      "offset": 0,
+      "reviewCount": 5,
+      "reviewList": [
+        {
+          "id": 1,
+          "rating": 5,
+          "nickName": "小明",
+          "goodsName": "华为 HUAWEI P30 Pro",
+          "count": 3,
+          "title": "Nフィットシーツ",
+          "content": "テレビで見て早速買い求めました、送られてきてすぐベットにシーツを敷いてみました。朝起きたら下がぐちゃぐちゃにならなくてとても気持ちが良かったです。気に入りました。",
+          "photo1": "http://localhost:8080/assets/images/goods1.jpg",
+          "photo2": null,
+          "photo3": null,
+          "photo4": null,
+          "photo5": null,
+          "reviewDate": "2022/04/19"
+        },
+        {
+          "id": 2,
+          "rating": 3,
+          "nickName": "小红",
+          "goodsName": "华为 HUAWEI P30 Pro",
+          "count": 5,
+          "title": "华为好手机",
+          "content": "content8",
+          "photo1": null,
+          "photo2": null,
+          "photo3": "http://localhost:8080/assets/images/goods1.jpg",
+          "photo4": "http://localhost:8080/assets/images/goods1.jpg",
+          "photo5": null,
+          "reviewDate": "2022/04/19"
+        },
+        {
+          "id": 3,
+          "rating": 5,
+          "nickName": "小蓝",
+          "goodsName": "华为 HUAWEI P30 Pro",
+          "count": 2,
+          "title": "华为好手机",
+          "content": "content2",
+          "photo1": null,
+          "photo2": null,
+          "photo3": null,
+          "photo4": null,
+          "photo5": null,
+          "reviewDate": "202/04/02"
+        }
+      ]
+    },
+    {
+      "goodsId": 10195,
+      "offset": 3,
+      "reviewCount": 5,
+      "reviewList": [
+        {
+          "id": 4,
+          "rating": 4,
+          "nickName": "user2",
+          "goodsName": "华为 HUAWEI P30 Pro",
+          "count": 2,
+          "title": "742verygood",
+          "content": "content2",
+          "photo1": null,
+          "photo2": null,
+          "photo3": null,
+          "photo4": null,
+          "photo5": null,
+          "reviewDate": "2022/04/02"
+        },
+        {
+          "id": 4,
+          "rating": 4,
+          "nickName": "user2",
+          "goodsName": "华为 HUAWEI P30 Pro",
+          "count": 2,
+          "title": "742verygood",
+          "content": "content2",
+          "photo1": null,
+          "photo2": null,
+          "photo3": null,
+          "photo4": null,
+          "photo5": null,
+          "reviewDate": "2022/04/02"
+        }
+      ]
+    }
+  ],
+  "goodsDetailReviewTotal": [
+    {
+      "goodsId": 10195,
+      "ratingAvg": 3,
+      "reviewCount": 3,
+      "titleCount": 2
+    },
+    {
+      "goodsId": 10196,
+      "ratingAvg": 4.5,
+      "reviewCount": 4,
+      "titleCount": 2
+    }
+  ],
+  "goodsDetailReviewRating": [
+    {
+      "goodsId": 10195,
+      "rating": [
+        {
+          "rating": 5,
+          "percentage": 25,
+          "ratingCount": 10
+        },
+        {
+          "rating": 4,
+          "percentage": 20,
+          "ratingCount": 8
+        },
+        {
+          "rating": 3,
+          "percentage": 10,
+          "ratingCount": 4
+        },
+        {
+          "rating": 2,
+          "percentage": 40,
+          "ratingCount": 16
+        },
+        {
+          "rating": 1,
+          "percentage": 5,
+          "ratingCount": 2
+        }
+      ]
+    }
+  ],
+  "goodsDetailReviewQA": [
+    {
+      "goodsId": 10195,
+      "reviewQA": [
+        {
+          "id": 1,
+          "count": 12,
+          "question": "セミダブルにはどのサイズが合いますか？",
+          "answer": "ダブルサイズをお選びください。セミダブルサイズとダブルサイズ兼用です。",
+          "reviewDate": "2021/02/01"
+        },
+        {
+          "id": 2,
+          "count": 26,
+          "question": "イブとの違いはなんですか",
+          "answer": "生地の組成が異なります。イブシリーズはポリエステル95％ポリウレタン5％に対し、パレットシリーズはポリエステル55％　レーヨン40％　ポリウレタン5％です。",
+          "reviewDate": "2021/03/12"
+        },
+        {
+          "id": 3,
+          "count": 30,
+          "question": "幅140奥行き195高さ10のマットレスにはどのサイズを買ったら良いでしょうか？",
+          "answer": "幅140cmですとダブルサイズになりますので「セミダブル-ダブル」が対応します。",
+          "reviewDate": "2021/08/09"
+        },
+        {
+          "id": 4,
+          "count": 11,
+          "question": "三つ折マットレスの厚さ10ｃｍのマットレスに対応しますか。",
+          "answer": "対応しています。",
+          "reviewDate": "2021/04/09"
+        },
+        {
+          "id": 5,
+          "count": 10,
+          "question": "幅170奥行き197高さ32のマットレスだとどのサイズが合いますか？",
+          "answer": "幅170cmですとクイーンサイズになりますので「ワイドダブル-クイーン」が対応します。",
+          "reviewDate": "2021/08/27"
+        },
+        {
+          "id": 6,
+          "count": 8,
+          "question": "脚付きポケットコイルマットレスには使用出来ますか",
+          "answer": "脚の位置によっては多少ゴムが脚にあたる場合がございますが、ご使用いただけます。",
+          "reviewDate": "2021/07/22"
+        },
+        {
+          "id": 7,
+          "count": 3,
+          "question": "2段ベッド用マットレスにサイズが合いますか？",
+          "answer": "伸縮性のある素材ですので、シングルサイズ（SS-Sサイズ）にて、ご使用頂けます。",
+          "reviewDate": "2021/02/09"
+        }
+      ]
+    }
+  ],
+  "goodsDisplay": [
+    {
+      "goodsId": 10195,
+      "sizeName": "スモールシングル-シングル",
+      "single": [
+        {
+          "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "1790",
+              "oldPrice": "1990",
+              "dropTime": "2022/05/16",
+              "integral": "16",
+              "goodsNumber": "7518027",
+              "color": "gray",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "1592",
+              "oldPrice": "1990",
+              "dropTime": "2021/11/22",
+              "integral": "21",
+              "goodsNumber": "7518032",
+              "color": "black",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。2020/11/3～2022/5/15までの当社販売価格1990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "colorUrl": "http://localhost:8080/assets/images/BasicColor_RO.png",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "1790",
+              "oldPrice": "1990",
+              "dropTime": "2022/05/16",
+              "integral": "16",
+              "goodsNumber": "7518021",
+              "color": "rose",
+              "size1": "80",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "490g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！スモールシングル-シングル用。",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goodsId": 10195,
+      "sizeName": "セミダブル-ダブル",
+      "double": [
+        {
+          "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "2790",
+              "oldPrice": "2990",
+              "dropTime": "2022/05/16",
+              "integral": "25",
+              "goodsNumber": "7518028",
+              "color": "gray",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/6～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "2392",
+              "oldPrice": "2990",
+              "dropTime": "2021/11/22",
+              "integral": "21",
+              "goodsNumber": "7518038",
+              "color": "black",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "2790",
+              "oldPrice": "2990",
+              "dropTime": "2022/05/16",
+              "integral": "25",
+              "goodsNumber": "7518022",
+              "color": "rose",
+              "size1": "110",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "600g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！セミダブル-ダブル用。2020/11/3～2022/5/15までの当社販売価格2990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "goodsId": 10195,
+      "sizeName": "ワイドダブル-クイーン",
+      "queen": [
+        {
+          "colorName": "gray",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479792670/BasicColor_GRY.jpg",
+          "gray": [
+            {
+              "titleName": "GY",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2022/05/16",
+              "integral": "34",
+              "goodsNumber": "7518027",
+              "color": "gray",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photogray1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photogray2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photogray3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photogray4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "black",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8965479071774/BasicColor_BK.jpg",
+          "black": [
+            {
+              "titleName": "BK",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2021/11/22",
+              "integral": "34",
+              "goodsNumber": "7518032",
+              "color": "black",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/5～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photoblack1.jpeg",
+                  "photo2": "http://localhost:8080/assets/images/photoblack2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photoblack3.jpeg",
+                  "photo4": "http://localhost:8080/assets/images/photoblack4.jpeg"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "colorName": "rose",
+          "colorUrl": "https://www.nitori-net.jp/ecstatic/image/sys-master/images/8966164185118/BasicColor_RO.jpg",
+          "rose": [
+            {
+              "titleName": "RO",
+              "price": "3790",
+              "oldPrice": "3990",
+              "dropTime": "2022/05/16",
+              "integral": "34",
+              "goodsNumber": "7518029",
+              "color": "rose",
+              "size1": "125",
+              "size2": "170",
+              "size3": "40",
+              "material": "polyester",
+              "weight": "650g",
+              "warrantyYears": "1年",
+              "display": "伸びる素材でぴったりフィット！厚さ38cmまで対応。敷ふとんにも、マットレスにも使える！ワイドダブル-クイーン用。2020/11/7～2022/5/15までの当社販売価格3990円（税込）期間限定値下げ：5/16~6/20まで",
+              "photo": [
+                {
+                  "photo1": "http://localhost:8080/assets/images/photorose1.webp",
+                  "photo2": "http://localhost:8080/assets/images/photorose2.jpeg",
+                  "photo3": "http://localhost:8080/assets/images/photorose3.webp",
+                  "photo4": "http://localhost:8080/assets/images/photorose4.webp"
+                }
+              ],
+              "photoisplay": [
+                {
+                  "photoisplay1": "面倒なシーツの取りかえがラクちん。",
+                  "photoisplay2": "たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪",
+                  "photoisplay3": "使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。",
+                  "photoisplay4": "伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
