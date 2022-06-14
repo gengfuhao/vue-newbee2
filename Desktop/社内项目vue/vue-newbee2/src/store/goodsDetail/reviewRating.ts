@@ -1,13 +1,21 @@
 const url = "http://localhost:3000/goods/detail/review/rating/";
 const headers = { Accept: "application/json" };
-
+type ratingState = {
+  reviewRating: {};
+};
+type ratingPayload = [
+  {
+    goodsId: number;
+    rating: [];
+  }
+];
 export default {
   state: {
     reviewRating: {},
   },
   mutations: {
     //syncrous
-    setReviewRating(state, payload) {
+    setReviewRating(state: ratingState, payload: ratingPayload) {
       // state.reviewRating.push(payload);
       //state.reviewRating = payload
       state.reviewRating = payload[0];
@@ -19,14 +27,14 @@ export default {
   },
   actions: {
     //asyncronous
-    async setReviewRating(state, payload) {
+    async setReviewRating({ commit }: { commit: Function }, payload: number) {
       const reviewRating = await fetch(url + payload, { headers });
       const j = await reviewRating.json();
-      state.commit("setReviewRating", j);
+      commit("setReviewRating", j);
     },
   },
   getters: {
-    getReviewRating: (state) => {
+    getReviewRating: (state: ratingState) => {
       return state.reviewRating;
     },
   },

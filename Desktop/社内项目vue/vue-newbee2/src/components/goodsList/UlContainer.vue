@@ -4,13 +4,10 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import GoodsList from "./GoodsList.vue";
 export default {
   components: { GoodsList },
-  data() {
-    return {};
-  },
 };
 </script>
 

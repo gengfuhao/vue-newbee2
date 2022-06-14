@@ -31,60 +31,10 @@
               >
                 <img
                   class="swiper-lazy swiper-lazy-loaded"
-                  src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804701.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20220516105128778"
+                  :src="bigPhotoUrl"
                   alt="面倒なシーツの取りかえがラクちん。"
                   imgcount="0"
                 />
-              </div>
-              <div
-                class="swiper-slide p-gallery_item swiper-slide-next"
-                data-caption="たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-395px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy swiper-lazy-loaded"
-                  alt="たて・よこの伸縮性に優れ、無駄なく「のびて、ピタッ！」とつけられる！取り付け、着脱も簡単♪"
-                  imgcount="1"
-                  src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804702.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20210719143628350"
-                />
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-790px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804703.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20201217110218571"
-                  alt="使い方‥①角をひっかける。②ビヨーンと伸ばす。③パッとはなす。"
-                  imgcount="2"
-                />
-                <div class="swiper-lazy-preloader"></div>
-              </div>
-              <div
-                class="swiper-slide p-gallery_item"
-                data-caption="伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
-                style="
-                  width: 395px;
-                  opacity: 0;
-                  transform: translate3d(-1185px, 0px, 0px);
-                "
-              >
-                <img
-                  class="swiper-lazy"
-                  data-src="https://www.nitori-net.jp/ecstatic/image/product/7518047/751804704.jpg?ccp=1654128000&amp;imwidth=415&amp;imdensity=1&amp;ts=20201217110218571"
-                  alt="伸縮性に優れた生地を使用しているので、シワになりにくく、シーツが浮くことなくきれいなフィット感が得られます。"
-                  imgcount="3"
-                />
-                <div class="swiper-lazy-preloader"></div>
               </div>
             </div>
           </div>
@@ -127,31 +77,35 @@
         <div
           class="swiper-container p-gallery_thumbs_el swiper-container-horizontal"
         >
-          <div class="swiper-wrapper js-gallery-thumbnails">
-            <div class="swiper-slide swiper-slide-active" style="width: 395px">
+          <div
+            class="swiper-wrapper js-gallery-thumbnails"
+            style="transition-duration: 1ms"
+            :style="{
+              transform: 'translate3d(-' + moveNumber + 'px, 0px, 0px)',
+            }"
+          >
+            <div
+              class="swiper-slide swiper-slide-active"
+              style="width: 395px"
+              v-for="photo in newPhoto"
+            >
               <div
+                v-for="photo1 in photo"
                 class="p-gallery_thumbs_item p-gallery_thumbs_item-active"
                 role="button"
                 tabindex="0"
                 data-index="0"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804701.jpg?imwidth=197&amp;ts=20220516105128778);
-                "
-              ></div>
-              <div
-                class="p-gallery_thumbs_item"
-                role="button"
-                tabindex="0"
-                data-index="1"
-                style="
-                  background-image: url(https://www.nitori-net.jp/ecstatic/image/product/7518047/751804702.jpg?imwidth=197&amp;ts=20210719143628350);
-                "
+                :style="{ backgroundImage: 'url(' + photo1 + ')' }"
+                @click="bigPhoto(photo1)"
               ></div>
             </div>
           </div>
         </div>
         <div class="p-gallery_controls">
-          <div class="p-gallery_btn p-gallery_prev swiper-button-disabled">
+          <div
+            class="p-gallery_btn p-gallery_prev swiper-button-disabled"
+            @click="leftMove"
+          >
             <i class="g-i g-i-arrow-l" aria-hidden="true"
               ><span class="material-symbols-outlined">
                 arrow_back_ios
@@ -167,7 +121,7 @@
             ><span class="swiper-pagination-bullet"></span
             ><span class="swiper-pagination-bullet"></span>
           </div>
-          <div class="p-gallery_btn p-gallery_next">
+          <div class="p-gallery_btn p-gallery_next" @click="rightMove">
             <i class="g-i g-i-arrow-r" aria-hidden="true"
               ><span class="material-symbols-outlined">
                 arrow_forward_ios
@@ -180,40 +134,57 @@
   </div>
 </template>
 
-<script>
-import { onMounted, computed, ref } from "vue";
-import { useStore } from "vuex";
-export default {
-  // data() {
-  //   return {
-  //     newPhoto: this.display1.photo,
-  //   };
-  // },
-  props: {
-    display1: {
-      photo: Array,
-      photoDisplay: Array,
-    },
-  },
+<script setup>
+import { onMounted, computed, toRefs, ref } from "vue";
+import { useStore } from "../../store/index";
+const store = useStore();
 
-  methods: {},
-  computed() {
-    console.log("props!!!!!!!!!!!!props", this.props);
-  },
-  setup() {
-    const store = useStore();
-    const newPhoto=computed(()=>{
- let imgs=this.display1.photo
-       let count = Math.ceil(imgs.length / limit);
-       count = imgs.length % limit ? count++ : count;
-       let idx = 0;
-      let newphoto = [];
-       while (idx < count) {
-        newphoto.push(imgs.slice(idx * limit, idx * limit + limit));
-        idx++;
-    })
-  },
+let newPhoto = computed(() => {
+  let imgs = store.getters.getDisplay[0].photo;
+  let count = Math.ceil(imgs.length / 2);
+  count = imgs.length % 2 ? count++ : count;
+  let idx = 0;
+  let newphoto = [];
+  while (idx < count) {
+    newphoto.push(imgs.slice(idx * 2, idx * 2 + 2));
+    idx++;
+  }
+  return newphoto;
+});
+let moveNumber = ref(0);
+
+//右移点击事件
+let rightMove = () => {
+  let n = (newPhoto.value.length - 1) * 395;
+
+  if (moveNumber.value < n) {
+    moveNumber.value = moveNumber.value + 395;
+  } else {
+    moveNumber.value = moveNumber.value;
+  }
+  console.log("moveNumber!!!", moveNumber.value, n);
 };
+//左移点击事件
+let leftMove = () => {
+  if (moveNumber.value > 0) {
+    moveNumber.value = moveNumber.value - 395;
+  }
+};
+//点击事件 给大图传参
+let bigPhotoUrl = ref(store.getters.getDisplay[0].photo[0]);
+// console.log("bigPhotoUrl!!!!!", bigPhotoUrl);
+let bigPhoto = (e) => {
+  // console.log("bigPhoto!!!!!!!!", e);
+  bigPhotoUrl.value = e;
+};
+
+// console.log("newphoto外!!!!!!!!!", newPhoto);
+// let newPhotoDisplay = computed(() => store.getters.getDisplay[0].photoDisplay);
+
+// console.log("newPhotoDisplay!!!!!!!!!", newPhotoDisplay);
+// onMounted(() => {
+//   // console.log("newphoto!!!!!!!!!", this.display1.photo);
+// });
 </script>
 
 <style scoped>

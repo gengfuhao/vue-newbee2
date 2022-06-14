@@ -9,24 +9,36 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import { computed, onMounted } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 import { useRoute } from "vue-router";
 import DetailPage from "./DetailPage.vue";
 import PhDisplay from "./PhDisplay.vue";
-//获取id
-const store = useStore();
-const route = useRoute();
-const goodsId = route.params.goodsId;
-//初始化QA
-onMounted(() => {
-  store.dispatch("setDisplay", goodsId);
-  console.log("goodsidqqqqqqq", goodsId);
-});
-let display = computed(() => {
-  return store.getters.getDisplay;
-});
+
+export default {
+  components: {
+    DetailPage,
+    PhDisplay,
+  },
+  setup() {
+    //获取id
+    const store = useStore();
+    const route = useRoute();
+    const goodsId = route.params.goodsId;
+    //初始化QA
+    onMounted(() => {
+      store.dispatch("setDisplay", goodsId);
+      console.log("goodsidqqqqqqq", goodsId);
+    });
+    let display = computed(() => {
+      return store.getters.getDisplay;
+    });
+    return {
+      display,
+    };
+  },
+};
 </script>
 
 <style>

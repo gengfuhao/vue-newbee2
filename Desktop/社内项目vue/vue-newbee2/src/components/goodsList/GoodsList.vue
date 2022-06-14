@@ -1,30 +1,33 @@
 <template>
   <ul class="flex-ul">
-    <template v-for="(goods, index) in goodsList" :key="index">
+    <template v-for="(goods, index) in getNewGoodses" :key="index">
       <goods-li :goods="goods"></goods-li>
     </template>
   </ul>
 </template>
 
-<script>
+<script lang="ts">
 import GoodsLi from "./GoodsLi.vue";
 import { mapActions, mapGetters } from "vuex";
 
-export default {
+import { defineComponent } from "vue";
+export default defineComponent({
+  // 已启用类型推断
   components: {
     GoodsLi,
   },
   methods: {
-    ...mapActions({ fetchNewGoodses: "setNewGoodses" }),
+    ...mapActions(["setNewGoodses"]),
   },
   computed: {
-    ...mapGetters({ goodsList: "getNewGoodses" }),
+    ...mapGetters(["getNewGoodses"]),
   },
-  mounted() {
-    this.fetchNewGoodses();
+  mounted(): void {
+    this.setNewGoodses();
   },
-};
+});
 </script>
+
 <style>
 .flex-ul {
   display: flex;

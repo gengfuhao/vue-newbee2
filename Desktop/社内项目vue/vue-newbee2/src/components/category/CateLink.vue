@@ -8,10 +8,10 @@
   </dd>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
-    categories3: { link: String, categoryName: String },
+    categories3: Array,
   },
 };
 </script>

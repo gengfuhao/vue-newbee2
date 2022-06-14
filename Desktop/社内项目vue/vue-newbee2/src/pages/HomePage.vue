@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import UlContainer from "../components/goodsList/UlContainer.vue";
 import SubBanner from "../components/goodsList/SubBanner.vue";
 import BannerCom from "../components/banner/BannerCom.vue";
@@ -21,7 +21,10 @@ export default {
 <style scoped>
 .content-container {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  min-height: 100%;
 }
 </style>

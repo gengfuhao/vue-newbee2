@@ -7,15 +7,12 @@
   </dl>
 </template>
 
-<script>
+<script lang="ts">
 import CateLink from "./CateLink.vue";
 export default {
   components: { CateLink },
   props: {
-    categories2: {
-      categoriName: String,
-      levelTwoCat: Object,
-    },
+    categories2: Array,
   },
 };
 </script>

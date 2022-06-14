@@ -4,7 +4,7 @@
   </li>
 </template>
 
-<script>
+<script lang="ts">
 import GoodsLink from "./GoodsLink.vue";
 export default {
   components: {

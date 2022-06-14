@@ -61,21 +61,11 @@ export default {
       showed = !showed;
 
       this.filterReviews(rating);
-      this.changeShowed(showed);
+      this.setShowed(showed);
     },
-    ...mapMutations(["filterReviews", "changeShowed"]),
+    ...mapMutations(["filterReviews", "setShowed"]),
   },
 };
-
-// const showMeMore = () => {
-//   showed = !showed;
-//   store.commit("changeShowed", showed);
-//   if (showed) {
-//     btnText.value = "レビューをもっと見る";
-//   } else {
-//     btnText.value = "閉じる";
-//   }
-// };
 </script>
 <style scoped>
 .p-reviw-graph-area-row-sm {

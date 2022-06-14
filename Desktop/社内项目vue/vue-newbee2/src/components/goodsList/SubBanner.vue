@@ -1,53 +1,42 @@
 <template>
   <div id="sub_banner">
     <hot-image
-      v-for="(goods, index) in state.hotGoods"
+      v-for="(goods, index) in hotGoods"
       :key="index"
       :goods="goods"
     ></hot-image>
   </div>
 </template>
 
-<script setup>
+<script lang="ts">
 import HotImage from "./HotImage.vue";
-import { reactive, onMounted } from "vue";
-const state = reactive({
-  hotGoods: [],
-});
-onMounted(async () => {
-  const url = "http://localhost:3000/hotGoodses";
-  const headers = { Accept: "application/json" };
-  const goodses = await fetch(url, { headers });
-  const j = await goodses.json();
-  state.hotGoods = [...j];
-  //       const newArr = j.map((goods) => {
-  //         const { link, imgSrc, name } = goods;
-  //         return { link, imgSrc, name };
-});
-//       state.hotGoods = [...newArr];
-//       console.log("in setNewGoodses method", state.hotGoods);
-//     });
-//     return {
-//       ...toRefs(state),
-//     };
-//   },
-// };
+import { reactive, onMounted, toRefs } from "vue";
+import { defineComponent } from "vue";
+import { RESOLVE_FILTER } from "@vue/compiler-core";
 
-// export default {
-//   components: {
-//     HotImage,
-//   },
-//   methods: {
-//     ...mapActions({ fetchHotGoodses: "setHotGoodses" }),
-//   },
-//   computed: {
-//     ...mapGetters({ goodsList: "getHotGoodses" }),
-//   },
-//   mounted() {
-//     this.fetchHotGoodses();
-//   },
-// };
-//
+export default defineComponent({
+  // 已启用类型推断
+  components: { HotImage },
+  setup() {
+    let state = reactive({
+      hotGoods: [],
+    });
+    let { hotGoods } = toRefs(state);
+
+    console.log("qqqqqqqqqqq!", hotGoods);
+    onMounted(async () => {
+      let url: string = "http://localhost:3000/hotGoodses";
+      const headers = { Accept: "application/json" };
+      const goodses = await fetch(url, { headers });
+      const j = await goodses.json();
+      hotGoods.value = j;
+    });
+
+    return {
+      hotGoods,
+    };
+  },
+});
 </script>
 
 <style>
@@ -56,7 +45,6 @@ onMounted(async () => {
   width: 1226px;
   flex-shrink: 0;
   justify-content: space-between;
-  /* height: 295px; */
   margin-top: 15px;
   text-decoration: none;
   list-style-type: none;

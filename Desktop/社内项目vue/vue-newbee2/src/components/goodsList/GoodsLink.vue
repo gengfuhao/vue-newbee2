@@ -11,7 +11,7 @@
     <p class="item_price">{{ price }}</p>
     <!-- <p class="counter">{{ counter }}</p> -->
     <transition name="slide-up">
-      <div v-if="showComment" class="comment">
+      <div v-show="showComment" class="comment">
         <p>{{ comment }}</p>
         <p></p>
       </div>
@@ -19,8 +19,9 @@
   </router-link>
 </template>
 
-<script>
-export default {
+<script lang="ts">
+import { defineComponent } from "vue";
+export default defineComponent({
   data() {
     return {
       showComment: false,
@@ -43,7 +44,7 @@ export default {
       }
     },
   },
-};
+});
 </script>
 
 <style scoped>

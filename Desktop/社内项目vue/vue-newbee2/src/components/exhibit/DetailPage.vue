@@ -9,18 +9,14 @@
           <div class="g-select g-select-sm js-sku-variations-dropdown">
             <select
               @change="change"
-              name=""
-              required=""
               aria-required="true"
-              aria-label="サイズの選択"
               data-control="#p-eo-label-"
             >
               <option
+                ref="cvs"
                 v-for="(changeName1, index) in changeName"
                 :key="index"
                 :value="changeName1.sizeName"
-                selected=""
-                data-parent=""
               >
                 {{ changeName1.sizeName }}
               </option>
@@ -97,10 +93,11 @@
           />
         </li>
       </ul>
-      <div id="p-specMore" aria-hidden="true" data-accordion-more="">
+      <div id="p-specMore" :aria-hidden="open" data-accordion-more="">
         <ul
           class="g-flow-lg g-flow-half g-unit js-sku-manuals p-sku-manuals"
         ></ul>
+
         <table class="g-table-a js-sku-specs">
           <tbody>
             <tr>
@@ -123,6 +120,7 @@
               <th>素材</th>
               <td>{{ display1.material }}</td>
             </tr>
+
             <tr>
               <th>重量</th>
               <td>約{{ display1.weight }}</td>
@@ -136,10 +134,9 @@
       </div>
 
       <div class="g-foot-v g-foot-sm" style="">
-        <p class="g-align-tc">
+        <p class="g-align-tc" @click="openClick">
           <a
             class="g-btn g-btn-w-md displaymorespec"
-            href="#p-specMore"
             role="button"
             aria-expanded="false"
             aria-controls="p-specMore"
@@ -158,8 +155,8 @@
 </template>
 
 <script>
-import { onMounted, computed, ref } from "vue";
-import { useStore } from "vuex";
+import { onMounted, computed, ref, toRefs } from "vue";
+import { useStore } from "../../store/index";
 export default {
   props: {
     display1: {
@@ -178,19 +175,26 @@ export default {
       display: String,
     },
   },
-
+  computed: {
+    sizeName() {
+      console.log("1111111111111", this.$refs.cvs);
+      return this.$refs.cvs;
+    },
+  },
   setup() {
     const store = useStore();
     //风格选择
     let changeName = computed(() => store.getters.getAllReviewDisPlay);
-    let sizeName = ref("ワイドダブル-クイーン");
+
+    let sizeName = ref("123");
+
     const change = (event) => {
       sizeName.value = event.target.value;
-      console.log("event!!!!!!!!", sizeName.value);
+      console.log("event!!!!!!!!", event.target.value);
       store.commit("setChange", event.target.value);
     };
-
-    //获取colorUrl 和reviewdisplay（遍历颜色）
+    onMounted(() => {});
+    //获取color 和渲染color
     let setColor = computed(() => {
       console.log("eeeeeeee", store.getters.getReviewDisplay);
       return store.getters.getReviewDisplay;
@@ -199,12 +203,19 @@ export default {
     const tm = (color) => {
       store.commit("setColor", color);
     };
+    //展开点击事件
+    let open = ref(false);
+    const openClick = () => {
+      open.value = !open.value;
+    };
     return {
-      sizeName,
-      changeName,
-      change,
+      open,
+      openClick,
       tm,
       setColor,
+      change,
+      changeName,
+      sizeName,
     };
   },
 };

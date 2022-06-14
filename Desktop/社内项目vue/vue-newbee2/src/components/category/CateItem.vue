@@ -19,35 +19,44 @@
   </div>
 </template>
 
-<script setup>
+<script lang="ts">
 import CateSubitem from "./CateSubitem.vue";
 import { onMounted, computed } from "vue";
-// import { mapActions, mapGetters } from "vuex";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 
-const store = useStore();
-onMounted(() => {
-  store.dispatch("setCategories");
+import { defineComponent } from "vue";
+export default defineComponent({
+  components: { CateSubitem },
+
+  setup() {
+    const store = useStore();
+    onMounted(() => {
+      store.dispatch("setCategories");
+    });
+    let categories = computed(() => store.getters.getCategories);
+
+    //鼠标放上去(mouseOver),显示第二三级别(display = "block")，
+    const mouseOverFun = (event: MouseEvent) => {
+      let style =
+        "top:" + (event.target as HTMLElement)!.offsetTop + "px; display:block";
+      (event.target as HTMLElement)
+        .querySelector(".item-list")!
+        .setAttribute("style", style);
+    };
+    //鼠标拿开(mouseLeave),消失(display = "none")
+    const mouseLeaveFun = (event: MouseEvent) => {
+      let style = "display:none";
+      (event.target as HTMLElement)
+        .querySelector(".item-list")!
+        .setAttribute("style", style);
+    };
+    return {
+      categories,
+      mouseOverFun,
+      mouseLeaveFun,
+    };
+  },
 });
-let categories = computed(() => store.getters.getCategories);
-
-// const state = reactive({
-//   // controll item list show or not
-//   displayOrNot: "none",
-// });
-//let { displayOrNot } = toRefs(state);
-
-//鼠标放上去(mouseOver),显示第二三级别(display = "block")，
-const mouseOverFun = (event) => {
-  // console.log("event", event.target);
-  let style = "top:" + event.target.offsetTop + "px; display:block";
-  event.target.querySelector(".item-list").style = style;
-};
-//鼠标拿开(mouseLeave),消失(display = "none")
-const mouseLeaveFun = (event) => {
-  console.log("event", event);
-  event.target.querySelector(".item-list").style.display = "none";
-};
 </script>
 
 <style>

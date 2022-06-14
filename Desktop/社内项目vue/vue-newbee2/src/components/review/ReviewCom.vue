@@ -8,30 +8,32 @@
               :show-rating="false"
               v-bind:star-size="25"
               :read-only="true"
-              v-model:rating="review.rating"
+              v-model:rating="rating"
             ></star-rating>
           </p>
           <p class="g-reviewList_user">
-            <b>{{ review.nickName }}</b
-            >さん &emsp;{{ review.reviewDate }}
+            <b>{{ nickName }}</b
+            >さん &emsp;{{ reviewDate }}
           </p>
         </div>
-        <p class="g-reviewList_info">購入商品:{{ review.goodsName }}</p>
-        <p class="g-reviewList_h">{{ review.title }}</p>
+        <p class="g-reviewList_info">購入商品:{{ goodsName }}</p>
+        <p class="g-reviewList_h">{{ title }}</p>
         <p>
-          {{ review.content }}
+          {{ content }}
         </p>
 
         <ul class="g-sm-flow-sm g-lg-flow g-reviewList_pics">
-          <li v-for="minphoto in photo" :key="minphoto">
+          <viewer :images="photo">
             <img
+              v-for="minphoto in photo"
+              :key="minphoto"
               class="g-fw p-review-gallery_photo"
               :src="minphoto"
               alt=""
               aria-expanded="false"
               aria-controls="p-reviewGallerySwipModal"
             />
-          </li>
+          </viewer>
         </ul>
 
         <p class="g-reviewList_like">
@@ -42,15 +44,16 @@
             data="626fd36d2e90a2006100013d"
             data-clickable=""
           >
-            <i
-              @click="review.count++"
-              style="cursor: pointer"
-              class="g-s g-s-like-g material-symbols-rounded"
-            >
-              thumb_up
-            </i>
+            <span @click.once="addCountClick">
+              <i
+                style="cursor: pointer"
+                class="g-s g-s-like-g material-symbols-rounded"
+              >
+                thumb_up
+              </i>
+            </span>
 
-            <span>参考になった（{{ review.count }}人）</span></a
+            <span>参考になった（{{ newCount }}人）</span></a
           >
         </p>
       </li>
@@ -58,49 +61,50 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
+import { computed, toRefs, defineProps, ref } from "vue";
+import { useStore } from "../../store/index";
+
 import StarRating from "vue-star-rating";
-export default {
-  components: {
-    StarRating,
-  },
-  props: {
-    review: {
-      //评价分数
-      rating: Number,
-      //用户名
-      nickName: Number,
-      //商品名字
-      goodsName: String,
-      //参考人数
-      count: Number,
-      //评价标题
-      title: String,
-      //评价内容
-      content: String,
-      //评价日期
-      reviewDate: String,
 
-      photo1: String,
-      photo2: String,
-      photo3: String,
-      photo4: String,
-      photo5: String,
-    },
-  },
+const props = defineProps({
+  //评价分数
+  rating: Number,
+  //用户名
+  nickName: Number,
+  //商品名字
+  goodsName: String,
+  //参考人数
+  count: Number,
+  //评价标题
+  title: String,
+  //评价内容
+  content: String,
+  //评价日期
+  reviewDate: String,
 
-  computed: {
-    photo() {
-      return [
-        this.review.photo1,
-        this.review.photo2,
-        this.review.photo3,
-        this.review.photo4,
-        this.review.photo5,
-      ];
-    },
-  },
-};
+  photo1: String,
+  photo2: String,
+  photo3: String,
+  photo4: String,
+  photo5: String,
+});
+const { rating, nickName, goodsName, title, content, reviewDate } =
+  toRefs(props);
+
+let photo = [
+  props.photo1,
+  props.photo2,
+  props.photo3,
+  props.photo4,
+  props.photo5,
+];
+let newCount = ref(props.count);
+
+function addCountClick() {
+  newCount.value++;
+  console.log("!!!!!!!newCount.value", newCount.value);
+}
 </script>
 
 <style scoped>

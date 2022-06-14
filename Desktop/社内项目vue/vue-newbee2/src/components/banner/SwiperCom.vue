@@ -1,15 +1,22 @@
 <template>
   <swiper
-    class="swiper-container"
+    :effect="'coverflow'"
+    :grabCursor="true"
+    :centeredSlides="true"
+    :slidesPerView="'auto'"
+    :coverflowEffect="{
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    }"
+    :autoplay="{
+      delay: 2500,
+      disableOnInteraction: false,
+    }"
     :modules="modules"
-    :slides-per-view="1"
-    :space-between="50"
-    navigation
-    :pagination="{ clickable: true }"
-    @swiper="onSwiper"
-    @slideChange="onSlideChange"
-    :autoplay="{ autoplay: true }"
-    loop
+    class="mySwiper"
   >
     <swiper-slide class="slide" v-for="slide in slides" :key="slide">
       <a :href="slide.link"><img :alt="slide.title" :src="slide.imgSrc" /></a>
@@ -17,29 +24,16 @@
   </swiper>
 </template>
 
-<script>
-// import Swiper core and required modules
-//import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
-// Import Swiper Vue.js components
+<script lang="ts">
 import { Swiper, SwiperSlide } from "swiper/vue";
-import SwiperCore, {
-  Navigation,
-  Pagination,
-  Scrollbar,
-  A11y,
-  Autoplay,
-} from "swiper";
-
-SwiperCore.use([Navigation, Pagination, Scrollbar, A11y, Autoplay]);
-
-// Import Swiper styles
 import "swiper/css";
-import "swiper/css/navigation";
+import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
-import "swiper/css/scrollbar";
+import "swiper/css/navigation";
+import { Navigation, Autoplay, EffectCoverflow, Pagination } from "swiper";
+
 import { onMounted, computed } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 
 // Import Swiper styles
 export default {
@@ -54,27 +48,32 @@ export default {
     });
     let slides = computed(() => store.getters.getImages);
 
-    const onSwiper = (swiper) => {
-      console.log(swiper);
-    };
-    const onSlideChange = () => {
-      console.log("slide change");
-    };
-
-    let swiperOption = {
-      initialSlide: 1,
-    };
     return {
       slides,
-      onSwiper,
-      onSlideChange,
-      modules: [Navigation, Pagination, Scrollbar, A11y],
-      swiperOption,
+      modules: [Navigation, Autoplay, EffectCoverflow, Pagination],
     };
   },
 };
 </script>
 <style scoped>
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
 .swiper-container {
   --swiper-theme-color: #ff6600;
   --swiper-navigation-size: 50px; /* 设置按钮大小 */

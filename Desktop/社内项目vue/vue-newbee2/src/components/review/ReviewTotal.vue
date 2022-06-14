@@ -1,6 +1,10 @@
 <template>
+  <h2 class="g-h-2 g-h-i p-hd">
+    <span class="material-symbols-outlined"> cloud </span>
+    <span>レビュー</span>
+  </h2>
   <div class="p-reviewScore p-reviewScore-sm">
-    <review-total-left v-bind:reviewTotal="reviewTotal"></review-total-left>
+    <review-total-left v-bind="reviewTotal"></review-total-left>
     <div class="p-reviw-graph-area-right">
       <template v-for="(Rating, index) in reviewRating" :key="index">
         <review-total-right :Rating1="Rating"></review-total-right>
@@ -12,12 +16,12 @@
   </p>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import ReviewTotalLeft from "./ReviewTotalLeft.vue";
 import ReviewTotalRight from "./ReviewTotalRight.vue";
 
 import { computed, onMounted } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 import { useRoute } from "vue-router";
 
 const route = useRoute();

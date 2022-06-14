@@ -1,26 +1,48 @@
 <template>
-  <complex></complex>
-  <ReviewQA></ReviewQA>
-  <review-total></review-total>
-  <div id="n-review-btn" class="n-review-btn">
-    <button onclick="javascript:void(0);" class="g-btn g-btn-w-sm">
-      <span>商品レビューを書く</span
-      ><i class="g-i g-i-arrow-r" aria-hidden="true"></i>
-    </button>
+  <div class="g-bodyArea g-inner">
+    <div class="g-layout-detail">
+      <complex></complex>
+      <send-info-cart></send-info-cart>
+      <ReviewQA></ReviewQA>
+      <review-total></review-total>
+      <div id="n-review-btn" class="n-review-btn">
+        <button onclick="javascript:void(0);" class="g-btn g-btn-w-sm">
+          <span>商品レビューを書く</span
+          ><i class="g-i g-i-arrow-r" aria-hidden="true"></i>
+        </button>
+      </div>
+      <hr />
+      <review-list></review-list>
+    </div>
   </div>
-  <hr />
-  <review-list></review-list>
 </template>
 
-<script setup>
-import complex from "../exhibit/complex.vue";
+<script>
+import complex from "../../components/exhibit/complex.vue";
 import ReviewList from "./ReviewList.vue";
 import ReviewTotal from "./ReviewTotal.vue";
 import { useRoute } from "vue-router";
 import ReviewQA from "./ReviewQA.vue";
+import { defineComponent } from "vue";
+import sendInfoCart from "../cart/sendInfoCart.vue";
 
-const route = useRoute();
-const goodsId = route.params.goodsId;
+export default defineComponent({
+  // 已启用类型推断
+  components: {
+    complex,
+    ReviewList,
+    ReviewTotal,
+    ReviewQA,
+    sendInfoCart,
+  },
+  setup() {
+    const route = useRoute();
+    const goodsId = route.params.goodsId;
+    return {
+      goodsId,
+    };
+  },
+});
 </script>
 
 <style scoped>
@@ -81,14 +103,29 @@ const goodsId = route.params.goodsId;
 .g-i-arrow-r::before {
   content: "\EA05";
 }
-/* .g-btn {
-  display: flex;
-  min-height: 46px;
-  padding: 5px 18px 5px 14px;
-  transform: translateX(5px);
-  flex: 1 1 auto;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-} */
+.g-inner,
+.g-lg-inner {
+  width: 100%;
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.g-bodyArea {
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.g-layout-detail {
+  grid-template-rows: auto auto auto auto auto;
+
+  grid-template-columns: 1fr 330px;
+}
+.g-layout-sidebar,
+.g-layout-detail .g-layout-category,
+.g-layout-cart,
+.g-layout-purchase,
+.g-layout-easyorder {
+  display: grid;
+}
 </style>

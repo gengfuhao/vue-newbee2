@@ -6,7 +6,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import ReviewContainer from "../components/review/ReviewContainer.vue";
 export default {
   components: { ReviewContainer },

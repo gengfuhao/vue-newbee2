@@ -2,14 +2,14 @@
   <router-link :to="link"> <img :src="imgSrc" :alt="name" /></router-link>
 </template>
 
-<script>
+<script lang="ts">
 export default {
   props: {
     link: String,
     imgSrc: String,
     name: String,
   },
-  inheritAttrs: false,
+  inheritAttrs: false, //不允许被继承
 };
 </script>
 

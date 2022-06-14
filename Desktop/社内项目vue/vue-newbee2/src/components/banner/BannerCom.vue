@@ -5,7 +5,7 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import SwiperContainer from "./SwiperContainer.vue";
 import CateItem from "../category/CateItem.vue";
 export default {

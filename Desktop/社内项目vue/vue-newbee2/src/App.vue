@@ -3,7 +3,7 @@
   <router-view></router-view>
 </template>
 
-<script>
+<script lang="ts">
 //import HomePage from "./pages/HomePage.vue";
 export default {
   name: "App",

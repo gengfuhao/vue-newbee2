@@ -2,22 +2,20 @@
   <p class="g-label-brand g-reviewList_label">ピックアップレビュー</p>
   <div>
     <div v-for="(review, index) in reviews" :key="index">
-      <review-com :review="review"></review-com>
+      <review-com v-bind="review"></review-com>
       <p
         style="border-top: 1px dashed #cccccc; height: 1px; overflow: hidden"
       ></p>
     </div>
 
-    <div v-show="!showed" v-for="(review, index) in reviews2" :key="index">
-      <review-com :review="review"></review-com>
+    <div v-show="showed" v-for="(review, index) in reviews2" :key="index">
+      <review-com v-bind="review"></review-com>
       <p
         style="border-top: 1px dashed #cccccc; height: 1px; overflow: hidden"
       ></p>
     </div>
   </div>
-  <!-- <div>
-    <span @click="showMeMore">{{ btnText }}</span>
-  </div> -->
+
   <p class="g-align-tc">
     <a
       @click="showMeMore"
@@ -37,11 +35,12 @@
   </p>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { computed, onMounted, ref } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 import { useRoute } from "vue-router";
-import ReviewCom from "./ReviewCom.vue";
+import ReviewCom from "../../components/review/ReviewCom.vue";
+
 const store = useStore();
 const route = useRoute();
 const goodsId = route.params.goodsId;
@@ -57,40 +56,16 @@ let reviews = computed(() => store.getters.getReviews.reviewList);
 let reviews2 = computed(() => store.getters.getReviews2.reviewList);
 let reviewCount = computed(() => store.getters.getReviews.reviewCount);
 let showed = computed(() => store.getters.getShowd);
-// computed出来的。。。放在一个叫object的value属性的地方 使用的时候一般要.value
-// let reviewCount = reviews.value.length + reviews2.value.length;
-// let reviewCount = computed(() => {
-//   if (
-//     store.getters.getReviews.reviewList != undefined &&
-//     store.getters.getReviews2.reviewList != undefined
-//   ) {
-//     return (
-//       store.getters.getReviews.reviewList.length +
-//       store.getters.getReviews2.reviewList.length
-//     );
-//   }
-// });
 
 // 点击事件
 const showMeMore = () => {
-  showed = !showed;
-  store.commit("changeShowed", showed);
-  if (showed) {
+  store.commit("setShowed");
+  if (showed.value) {
     btnText.value = "レビューをもっと見る";
   } else {
     btnText.value = "閉じる";
   }
 };
-
-// computed: {
-//   // btnText(){
-//   //   return showed === true ? "关闭" : "打开";
-//   // }
-//   console.log("revivalist里的reviewcount数据是", reviewCount);
-//   console.log("revivalist里的review2数据是", reviews2);
-//   console.log("revivalist里的review数据是", reviews);
-//   console.log("revivalist里的showed数据是", showed);
-// }
 </script>
 
 <style scoped>

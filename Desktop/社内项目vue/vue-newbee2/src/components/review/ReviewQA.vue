@@ -105,7 +105,7 @@
 
 <script setup>
 import { computed, onMounted } from "vue";
-import { useStore } from "vuex";
+import { useStore } from "../../store/index";
 import { useRoute } from "vue-router";
 import ReviewQaList from "./ReviewQaList.vue";
 //获取id

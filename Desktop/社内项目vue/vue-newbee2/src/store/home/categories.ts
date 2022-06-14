@@ -1,24 +1,28 @@
 const url = "http://localhost:3000/categories";
 const headers = { Accept: "application/json" };
 
+export type categoriesState = {
+  categories: [];
+};
+
 export default {
   state: {
     categories: [],
   },
   mutations: {
-    setCategories(state, payload) {
-      state.categories.push(...payload);
+    setCategories(state: categoriesState, payload: []) {
+      state.categories = payload;
     },
   },
   actions: {
-    async setCategories(state) {
+    async setCategories({ commit }: { commit: Function }) {
       const categories = await fetch(url, { headers });
       const j = await categories.json();
-      state.commit("setCategories", j);
+      commit("setCategories", j);
     },
   },
   getters: {
-    getCategories: (state) => {
+    getCategories: (state: any) => {
       return state.categories;
     },
   },
